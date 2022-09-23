@@ -1,0 +1,152 @@
+@media (min-width: 859px) and (max-width: 3000px) {
+  .checkbtn {
+    display: none;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+    position: fixed;
+    right: 10px;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    background: #000000;
+    top: 90px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 0.8em;
+    margin: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  #check:checked ~ ul {
+    left: 130px;
+  }
+
+  nav img {
+    width: 230px;
+    margin-right: 190px;
+  }
+}
+
+@media (max-width: 499px) {
+  .cabecalho-conteiner,
+  .beneficios-container,
+  .beneficios-caixa,
+  .duvidas-conteiner,
+  .modelos-conteiner,
+  .conteiner-rodaPe {
+    width: auto;
+  }
+
+  /* CSS MEDIA CABECALHO */
+
+  .texto-cabecalho {
+    font-size: 1em;
+
+    padding: 10px;
+  }
+
+  .texto-cabecalho p {
+    font-weight: 530;
+  }
+
+  /* CSS MEDIA BENEFICIOS */
+
+  .beneficios-container {
+    font-size: 1.3em;
+
+    height: auto;
+  }
+
+  .beneficios-container .beneficios-titulo {
+    font-size: 1.1em;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .beneficios-container .beneficios-caixa {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .beneficios-container img {
+    width: 130px;
+  }
+
+  /* CSS MEDIA DUVIDAS */
+
+  .duvidas-conteiner .duvidas-titulo {
+    font-size: 1.7em;
+  }
+
+  .duvidas-texto {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+
+  .duvidas-texto-p {
+    font-size: 1.3em;
+  }
+
+  .duvidas-conteiner img {
+    display: none;
+  }
+
+  /* CSS MEDIA MODELOS */
+
+  .modelos-conteiner .modelos-titulo {
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .modelos-caixa .modelos-boxes {
+    width: 280px;
+    height: 160px;
+  }
+
+  .modelos-conteiner .modelos-caixa {
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
+  }
+
+  .modelos-texto {
+    font-size: 1.2em;
+  }
+
+  .modelos-conteiner .modelos-p {
+    font-size: 1.3em;
+  }
+
+  /* CSS MEDIA RODAPE */
+
+  .conteiner-rodaPe img {
+    width: 180px;
+  }
+
+  .conteiner-rodaPe p {
+    display: none;
+  }
+}

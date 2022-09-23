@@ -1,0 +1,271 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS CABECALHO */
+
+.cabecalho-conteiner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.163), rgba(0, 0, 0, 0.163)),
+    url(../components/img/img-de-fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.6;
+  height: 100vh;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navegacao img {
+  cursor: pointer;
+}
+
+.navegacao-lista,
+li a {
+  display: flex;
+  text-decoration: none;
+  margin: 0.6em;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navegacao-lista li a:hover {
+  color: rgb(0, 8, 255);
+  transition: 0.5s;
+}
+
+.texto-cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4.4em;
+  text-align: center;
+}
+
+.texto-cabecalho h1 {
+  margin: 0 0 2.4em 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: playf, sans-serif;
+}
+
+.texto-cabecalho p {
+  margin: 0 0 1em 0;
+  font-size: 1.9em;
+  font-family: playf, sans-serif;
+}
+
+/* CSS BENEFICIOS */
+
+.beneficios-titulo {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: plauf, sans-serif;
+}
+
+.beneficios-img {
+  width: 150px;
+}
+
+.beneficios-caixa {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  margin: 3em 1em 2em 1em;
+}
+
+.beneficios-texto {
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-family: playf, sans-serif;
+}
+
+.beneficios-p {
+  font-family: source;
+  font-weight: 700;
+}
+
+/* CSS CHECKBTN */
+
+.checkbtn {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  line-height: 80px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+/* CSS DUVIDAS */
+
+.duvidas-conteiner {
+  background-color: rgba(228, 209, 185, 0.765);
+  height: auto;
+}
+
+.duvida-d {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.duvidas-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: playf, sans-serif;
+}
+
+.duvidas-caixa {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 120px;
+  row-gap: 50px;
+  margin-top: 7em;
+  padding-bottom: 3em;
+}
+
+.duvidas-det {
+  width: 300px;
+}
+
+.duvidas-img {
+  width: 400px;
+}
+
+/* CSS MODELOS */
+
+.modelos-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../components/img/fundo-cinza.jpg);
+  height: auto;
+}
+
+.modelos-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: playf, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+
+.modelos-caixa {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 20px;
+  padding: 2em 0 3em 0;
+  margin: 0 3em 0 3em;
+  row-gap: 40px;
+  grid-template-columns: auto auto auto;
+  margin-top: 2em;
+}
+
+.modelos-boxes {
+  background-color: #fff;
+  border: 1px solid rgb(251, 250, 250);
+  border-radius: 18px;
+  box-shadow: 2px -4px 0.7em rgb(66, 59, 59);
+  width: 300px;
+  height: 130px;
+  padding: 2em 1em 3em 1em;
+  cursor: pointer;
+}
+
+.modelos-texto {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: playf, sans-serif;
+}
+
+.modelos-boxes:hover {
+  border: 1px solid rgb(179, 255, 0);
+}
+
+.modelos-p {
+  font-family: source, sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.modelos-btn {
+  background-color: orange;
+  width: 230px;
+  height: 50px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.modelos-btn:hover {
+  width: 280px;
+  height: 55px;
+  font-size: 1.6em;
+}
+
+/* CSS RODAPE */
+
+.conteiner-rodaPe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
+.rodaPe-caixa {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-brands {
+  font-size: 1.6em;
+}
+
+.rodaPe-copy {
+  width: 100%;
+  height: 30px;
+  font-size: 0.8em;
+  background-color: rgb(166, 164, 164);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

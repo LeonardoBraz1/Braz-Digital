@@ -1,0 +1,8 @@
+@font-face {
+  font-family: playf;
+  src: url(/components/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: source;
+  src: url(/components/fonts/SourceSansPro-ExtraLightItalic.ttf);
+}
