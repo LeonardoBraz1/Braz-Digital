@@ -96,8 +96,9 @@ li a {
 }
 
 .beneficios-p {
-  font-family: source;
+  font-family: source, sans-serif;
   font-weight: 700;
+  color: rgba(63, 60, 60, 0.894);
 }
 
 /* CSS CHECKBTN */
