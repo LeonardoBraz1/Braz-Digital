@@ -42,7 +42,7 @@
 
   nav img {
     width: 230px;
-    margin-right: 190px;
+    margin-right: 47%;
   }
 }
 
@@ -59,7 +59,7 @@
   /* CSS MEDIA CABECALHO */
 
   .texto-cabecalho {
-    font-size: 1em;
+    font-size: 0.8em;
 
     padding: 10px;
   }
@@ -123,7 +123,7 @@
 
   .modelos-caixa .modelos-boxes {
     width: 280px;
-    height: 160px;
+    height: 180px;
   }
 
   .modelos-conteiner .modelos-caixa {
