@@ -37,7 +37,7 @@
   }
 
   #check:checked ~ ul {
-    left: 130px;
+    left: 37%;
   }
 
   nav img {
@@ -78,6 +78,7 @@
 
   .beneficios-container .beneficios-titulo {
     font-size: 1.1em;
+    text-align: center;
     width: 100%;
     font-weight: bold;
   }
