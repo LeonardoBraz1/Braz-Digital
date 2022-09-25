@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 913px) {
   .checkbtn {
     display: block;
     position: fixed;
@@ -154,5 +154,60 @@
 
   .conteiner-rodaPe p {
     display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 950px) {
+  .cabecalho-conteiner,
+  .beneficios-container,
+  .beneficios-caixa,
+  .duvidas-conteiner,
+  .modelos-conteiner,
+  .conteiner-rodaPe {
+    width: auto;
+  }
+
+  .texto-cabecalho {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  .cabecalho-conteiner img {
+    width: 300px;
+  }
+
+  .modelos-conteiner .modelos-caixa {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 200px;
+    margin-right: 25%;
+  }
+
+  .duvidas-img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 914px) and (max-width: 992px) {
+  .navegacao-lista li a {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 802px) {
+  .texto-cabecalho {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 642px) {
+  .duvidas-conteiner .duvidas-img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1047px) {
+  .modelos-conteiner .modelos-boxes {
+    width: 270px;
   }
 }
