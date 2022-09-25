@@ -176,13 +176,6 @@
     width: 300px;
   }
 
-  .modelos-conteiner .modelos-caixa {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    column-gap: 200px;
-    margin-right: 25%;
-  }
-
   .duvidas-img {
     width: 70%;
   }
@@ -200,14 +193,48 @@
   }
 }
 
-@media (min-width: 501px) and (max-width: 642px) {
+@media (min-width: 500px) and (max-width: 602px) {
+  .beneficios-container .beneficios-caixa {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 699px) {
   .duvidas-conteiner .duvidas-img {
     width: 50%;
+  }
+}
+
+@media (max-width: 601px) {
+  .duvidas-conteiner .duvidas-img {
+    display: none;
   }
 }
 
 @media (min-width: 951px) and (max-width: 1047px) {
   .modelos-conteiner .modelos-boxes {
     width: 270px;
+  }
+}
+
+@media (min-width: 731px) and (max-width: 950px) {
+  .modelos-conteiner .modelos-caixa {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 200px;
+    margin-right: 25%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 731px) {
+  .modelos-conteiner .modelos-caixa {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 701px) {
+  .conteiner-rodaPe p {
+    display: none;
   }
 }
