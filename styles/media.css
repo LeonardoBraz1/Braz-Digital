@@ -193,10 +193,18 @@
   }
 }
 
-@media (min-width: 500px) and (max-width: 602px) {
+@media (min-width: 500px) and (max-width: 942px) {
+  .texto-cabecalho {
+    font-size: 1em;
+  }
+
   .beneficios-container .beneficios-caixa {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .beneficios-p {
+    padding: 0 60px;
   }
 }
 
@@ -237,4 +245,7 @@
   .conteiner-rodaPe p {
     display: none;
   }
+}
+
+@media (min-width: 500px) and (max-width: 731px) {
 }
